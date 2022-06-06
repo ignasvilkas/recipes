@@ -1,0 +1,172 @@
+#main-page,
+#lasagna-page,
+#beef-page,
+#pizza-page {
+    background:
+    linear-gradient(rgb(139, 192, 217), transparent),
+    linear-gradient(to top left, rgb(109, 192, 170), transparent),
+    linear-gradient(to top right, rgb(18, 18, 39), transparent);
+    background-blend-mode: screen;
+}
+.main-h {
+    font-size: 100px;
+    text-align: center;
+    color:#17285d;
+    font-weight: 700;
+}
+
+#ramsay-gif {
+    position: relative;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gourmet-info {
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 7px;
+    color: #17285d; 
+}
+
+.main-bullet {
+    font-size: 40px;
+    font-weight: 700;
+    color: #17285d;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.lasagna-h {
+    text-align: center;
+    color: #17285d
+}
+
+#lasagna-cat {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.lasagna-desc,
+.lasagna-ing,
+.lasagna-steps {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 7px;
+    color: #17285d; 
+}
+
+.lasagna-description,
+.lasagna-ingredients,
+.lasagna-full-steps {
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: #17285d;
+    border-style: solid;
+}
+
+.lasagna-desc {
+    text-align: center;
+}
+
+.lasagna-ing {
+    columns: 3;
+}
+
+.pizza-h {
+    text-align: center;
+    color: #17285d
+}
+
+#pizza-img {
+    width: 700px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.pizza-desc,
+.dough-ing,
+.pizza-ing,
+.pizza-steps,
+.pizza-dough {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 7px;
+    color: #17285d; 
+}
+
+.pizza-description,
+.pizza-ingredients,
+.pizza-full-steps {
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: #17285d;
+    border-style: solid;
+}
+
+.dough-ing,
+.pizza-ing {
+    columns: 3;
+}
+
+.pizza-dough,
+.pizza-desc {
+    position: relative;
+    left: 10px;
+}
+
+.beef-h {
+    text-align: center;
+    color: #17285d
+}
+
+#beef-img {
+    width: 700px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.beef-desc,
+.well-ing,
+.sauce-ing,
+.beef-steps,
+.beef-move-right {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 7px;
+    color: #17285d; 
+}
+
+.beef-description,
+.beef-ingredients,
+.beef-full-steps {
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: #17285d;
+    border-style: solid;
+}
+
+.beef-desc,
+.beef-move-right {
+    position: relative;
+    left: 10px;
+}
+
+.well-ing,
+.sauce-ing {
+    columns: 3;
+}
